@@ -4,7 +4,6 @@
   "description": "Zero padding for numbers using Typescript\"",
   "main": "build/index.js",
   "scripts": {
-    "dev": "ts-node --log-error ./examples/index.ts",
     "build": "npm run lint && rimraf ./build && tsc -p tsconfig.prod.json",
     "prepare": "npm run build",
     "lint": "eslint . --ext .ts",
@@ -30,7 +29,6 @@
     "@typescript-eslint/parser": "^3.5.0",
     "eslint": "^7.3.1",
     "rimraf": "^3.0.2",
-    "ts-node": "^8.10.2",
     "typescript": "^3.9.5"
   }
 }

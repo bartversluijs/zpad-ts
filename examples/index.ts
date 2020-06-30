@@ -1,4 +1,4 @@
-import zpad from '../src/index';
+import zpad from '../build/index';
 
 // Zero's
 zpad(16, 4); // 0016

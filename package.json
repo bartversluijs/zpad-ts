@@ -1,6 +1,6 @@
 {
   "name": "zpad-ts",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Zero padding for numbers using Typescript\"",
   "main": "build/index.js",
   "scripts": {
